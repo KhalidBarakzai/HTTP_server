@@ -1,7 +1,5 @@
 # http_server
 
-Introduction
-
 HTTP (and its encrypted counterpart, HTTPS) is the protocol powering the World Wide Web. Your browser acts as an HTTP client, while all websites and their contents are made accessible by processes acting as HTTP servers. This code involves HTTP and the underlying TCP sockets over which HTTP text is communicated in this project.
 
 Part 1: implemented a simple HTTP server. performing the necessary socket setup, parse incoming client HTTP requests, and then reply with valid HTTP responses communicating the contents of files stored locally on disk. The server code will be able to interact with any HTTP client.
