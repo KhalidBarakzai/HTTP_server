@@ -6,7 +6,7 @@ Part 1: implemented a HTTP server. performing the necessary socket setup, parse 
 
 Part 2: conversion of the single-threaded HTTP server (which can only maintain one client session at a time) into a multi-threaded server with a design much closer to those of the real servers that power the modern web. In particular, it will use the thread pool paradigm to create a fixed-size collection of threads each capable of interacting with one client.
 
-This code will focus on a few important systems programming topics:
+This program will focus on a few important systems programming topics:
 
     TCP server socket setup and initialization with socket(), bind(), and listen()
     Server-side TCP communication with accept() followed by read() and write()
