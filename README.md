@@ -1,4 +1,4 @@
-# http_server
+# HTTP_server
 
 HTTP (and its encrypted counterpart, HTTPS) is the protocol powering the World Wide Web. Your browser acts as an HTTP client, while all websites and their contents are made accessible by processes acting as HTTP servers. This code involves HTTP and the underlying TCP sockets over which HTTP text is communicated in this project.
 
